@@ -1,0 +1,10 @@
+{
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode" // Prettier, как форматтер по умолчанию
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"eslint.enable": true,
+	"editor.formatOnSave": true
+}
