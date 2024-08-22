@@ -1,0 +1,31 @@
+{
+  "name": "zhelezno_parser",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekspil/zhelezno_parser.git"
+  },
+  "author": "Efremov Aleksei",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^4.17.21",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  }
+}
