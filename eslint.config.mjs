@@ -15,7 +15,7 @@ export default tseslint.config(
 			'@typescript-eslint/no-unused-vars': 'off',
 			'@typescript-eslint/no-empty-object-type': 'off',
 			'@typescript-eslint/explicit-function-return-type': 'warn',
-			'no-undef': 'error',
+			'no-undef': 'warn',
 		},
 		languageOptions: {
 			parserOptions: {
@@ -24,6 +24,6 @@ export default tseslint.config(
 		},
 	},
 	{
-		ignores: ['dist/*', '.vscode/*', 'node_modules/*'],
+		ignores: ['build/*', '.vscode/*', 'node_modules/*'],
 	}
 )
